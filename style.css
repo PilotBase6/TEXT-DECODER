@@ -1,0 +1,241 @@
+header {
+    background-color: white;
+    height: 100px;
+
+}
+
+
+.nagevation h1 {
+
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.navegation h1 a span img {
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+ul {
+    position: absolute;
+    top: 40px;
+    right: 150px;
+}
+
+.menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 20px;
+    padding-right: 15px;
+    color: #0A3871;
+
+}
+
+
+.container-first-part {
+    position: relative;
+
+
+}
+
+
+.container-introduction {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: url(../img/font-firts-part.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+
+}
+
+.left-line {
+    margin-top: 30%;
+    margin-left: 25px;
+}
+
+.left-line h2 {
+    color: white;
+    font-size: 40px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+
+.left-line p {
+    color: white;
+    font-size: 25px;
+    margin-top: 20px;
+}
+.right-line {
+    margin-top: 30%;
+    padding: 20px 40px;
+}
+
+.right-line p{
+    color: white;
+    font-size: 40px;
+}
+
+.container-introduction {
+    position: grid;
+    text-align: center;
+}
+
+
+.container-second-part {
+    position: relative;
+}
+
+.container-app {
+    width: 100%;
+    height: 100vh;
+}
+
+.container-switch {
+
+    position: relative;
+    ;
+    top: 10px;
+    left: 0;
+}
+
+.container-show-information {
+    position: relative;
+    top: 200px;
+    left: 250px;
+
+}
+
+.container-int-information {
+    background-image: url(img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    ;
+    border: 1px solid #0A3871;
+    padding-right: 10px;
+    padding-left: 30px;
+    border-radius: 0.8rem;
+
+}
+
+.container-copy {
+    background-image: url(img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: inline-block;
+    margin-left: 20px;
+    border: 1px solid #0A3871;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 0.8rem;
+
+}
+
+#w-i1 {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+#w-i2 {
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+}
+
+#copyb {
+    text-transform: capitalize;
+    position: absolute;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #0A3871;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #0A3871;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.container-bt {
+    position: relative;
+    top: 250px;
+    left: 42%;
+
+}
+
+#runb {
+    text-transform: capitalize;
+    padding: 5px 30px;
+    font-size: 30px;
+    color: #0A3871;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #0A3871;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 25px;
+}
+
+#clearb {
+    text-transform: capitalize;
+    padding: 5px 30px;
+    font-size: 30px;
+    color: #0A3871;
+    top: 10px;
+    right: 10px;
+    border: 1px solid #0A3871;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.container-message {
+    position: relative;
+}
+
+.container-contact-us {
+    width: 940px;
+    height: 100vh;
+    margin-top: 150px;
+}
+
+.container-contact-us form label {
+    display: block;
+    margin: 0 0 10px;
+    font-size: 22px;
+}
+
+.container-contact-us form input {
+
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 10px;
+    width: 50%;
+}
+
+
+footer {
+    position: relative;
+    ;
+
+}
+
+.container-footer {
+    width: 940px;
+    height: 100hv;
+    margin-top: 150px;
+}

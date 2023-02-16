@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="navegation">
+            <h1><a href="index.html"><span><img src="img/Logo.png" alt="Logo"></span></a></h1>
+            <nav>
+                <ul>
+                    <il class="menu"><a href="index.html">encriptar y desencriptar</a></il>
+                    <il class="menu"><a href="#">sobre la aplicacion</a></il>
+                    <il class="menu"><a href="contact.html">contactanos</a></il>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="container-first-part">
+            <div class="container-introduction">
+                <div class="left-line">
+                    <h2>Encriptador de texto</h2>
+                    <p>Encriptador de texto simple hecho con HTML5 CSS3 y Javascript, modifica el contenido del mensaje que
+                        insertes en la aplicación para que solo el remitente del mensaje pueda entender lo que se queria
+                        compartir
+                    </p>
+                </div>
+                <div class="right-line">
+                    <p>Hello World, <span>programming in process</span></p>
+
+                </div>
+
+            </div>
+        </section>
+        <section class="container-second-part">
+            <div class="container-app">
+                <div class="container-switch">
+                    <ul>
+                        <il class="encrip-desencrip"></il>
+                        <il class="encrip-desemcrip"></il>
+                    </ul>
+                </div>
+                <div class="container-show-information">
+                    <div class="container-int-information">
+                        <textarea name="write-information1" id="w-i1" cols="45" rows="22"
+                            placeholder="Please insert a text"></textarea>
+                    </div>
+    
+                    <div class="container-copy">
+                        <textarea name="write-information2" id="w-i2" cols="45" rows="22"
+                            placeholder="Please enter some text for encryption"></textarea>
+                        <button id="copyb"><span>copy</span></button>
+                    </div>
+    
+                </div>
+                <div class="container-bt">
+                    <button id="runb"><span>run</span></button>
+                    <button id="clearb"><span>clear</span></button>
+                </div>
+            </div>
+
+        </section>
+        <section class="container-message">
+            <div class="container-contact-us">
+                <form>
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name">
+    
+                    <label for="contact-number">Cellphone
+                        number</label>
+                    <input type="text" id="contact-number">
+    
+                    <label for="contact-subject">Subject</label>
+                    <input type="text" id="contact-subject">
+    
+                    <label for="contact-menssage">Menssage</label>
+                    <textarea id="contact-menssage" cols="30" rows="10" class="contact-section"></textarea>
+    
+                    <input type="submit" id="contact-send" value="Send">
+    
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="container-footer">
+            <ul>
+                <il class="footer-information">information</il>
+                <il class="footer-information">social</il>
+                <il class="footer-information">frecuenly question</il>
+                <il class="footer-information">more</il>
+            </ul>
+        </div>
+
+    </footer>
+</body>
+
+</html>
