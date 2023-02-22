@@ -51,3 +51,13 @@
     font-weight: bold;
 }
 
+@media (min-width: 768px) {
+
+    .principal_section_contactme_tittle{
+        font-size: 5rem;
+    }
+    .principal_section_contactme .container{
+        margin-bottom: 7rem;
+    }
+}
+

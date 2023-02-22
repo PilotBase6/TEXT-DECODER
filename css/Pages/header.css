@@ -47,3 +47,19 @@
     font-size: .9rem;
     color: var(--font-color-blue);
 }
+
+@media (min-width: 768px){
+
+    .principal_header{
+        display: initial;
+    }
+
+    .principal_header .container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: var(--background-color-gray);
+
+    }
+}

@@ -80,3 +80,17 @@
     text-transform: uppercase;
     font-weight: bold;
 }
+
+@media (min-width: 768px) {
+
+    .principal_section_app .container{
+        margin-top: 10rem;
+        margin-bottom: 7rem;
+    }
+    .principal_section_app_show_information{
+        display: flex;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    
+}
