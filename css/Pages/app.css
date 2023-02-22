@@ -1,0 +1,82 @@
+.principal_section_app {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    position: relative;
+    background-color: var(--background-color-gray);
+    color: var(--font-color-white);
+}
+
+.principal_section_app .container{
+    display: flex;
+    margin-top: 3rem;
+    flex-direction: column;
+}
+
+.principal_section_app_switch{
+    margin-bottom: 2rem;
+    display: inline-block;
+    position: relative;
+}
+
+.principal_section_app_switch_items{
+    margin: 0 2rem;
+    border: 1px solid var(--font-color-blue); 
+    padding: .75rem;
+    border-radius: 1rem;
+
+    
+}
+
+.principal_section_app_switch_items_link{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--font-color-blue);
+    font-weight: bold;
+}
+
+.principal_section_app_int_information_textarea{
+    width: 90%;
+    background-color: transparent;
+    background:  url(/img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: .5rem;
+    border: 1px solid var(--font-color-blue); 
+    border-radius: 1rem;
+
+    
+}
+
+
+.principal_section_app_out_information_textarea{
+    width: 90%;
+    background-color: transparent;
+    background:  url(/img/Muñeco.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: .5rem;
+    border: 1px solid var(--font-color-blue); 
+    border-radius: 1rem;
+
+}
+.principal_section_app_button{
+    display: inline-block;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+.principal_section_app_button_items{
+    background-color: var(--background-color-gray);
+    color: var(--font-color-blue);
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    border: 1px solid var(--font-color-blue);
+    border-radius: .5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}

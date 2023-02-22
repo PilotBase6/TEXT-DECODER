@@ -1,0 +1,53 @@
+.principal_section_contactme{
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    position: relative;
+    background-color: var(--background-color-gray);
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.principal_section_contactme_tittle{
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--font-color-blue);
+}
+
+.principal_section_contactme .container{
+    display: flex;
+    width: 70%;
+    max-width: 350px;
+    flex-direction: column;
+    margin-top: 3rem;
+    background-color: var(--background-color-blue);
+    border: 1px solid white;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.principal_section_contactme_form{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+
+}
+
+.principal_section_contactme_buttonsend{
+    background-color: var(--background-color-gray);
+    color: var(--font-color-blue);
+    padding: .5rem 1rem;
+    margin: 0 .5rem;
+    border: 1px solid var(--font-color-blue);
+    border-radius: .5rem;
+    text-transform: uppercase;
+    margin-top: 2rem;
+    font-weight: bold;
+}
+

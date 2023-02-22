@@ -7,96 +7,118 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Decoder</title>
     <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/block/base.css">
+    <link rel="stylesheet" href="/css/Pages/header.css">
+    <link rel="stylesheet" href="/css/Pages/introduction.css">
+    <link rel="stylesheet" href="/css/Pages/app.css">
+    <link rel="stylesheet" href="/css/Pages/contact.css">
+    <link rel="stylesheet" href="/css/Pages/footer.css">
+
 </head>
 
 <body>
-    <header>
-        <div class="navegation">
-            <h1><a href="index.html"><span><img src="img/Logo.png" alt="Logo"></span></a></h1>
-            <nav>
-                <ul>
-                    <il class="menu"><a href="index.html">decoder</a></il>
-                    <il class="menu"><a href="#">about aplication</a></il>
-                    <il class="menu"><a href="contact.html">contact us</a></il>
+    <header class="principal_header">
+        <div class="container">
+            <h1 class="principal_header_tittle">Decoder
+                <a class="principal_header_link" href="index.html">
+                    <img class="principal_header_link_logo" src="img/Logo.png" alt="Logo">
+                </a>
+            </h1>
+            <nav class="principal_header_nav">
+                <ul class="principal_header_list">
+                    <il class="principal_header_items"><a class="principal_header_items_link"
+                            href="index.html">decoder</a></il>
+                    <il class="principal_header_items"><a class="principal_header_items_link" href="#">about
+                            aplication</a></il>
+                    <il class="principal_header_items"><a class="principal_header_items_link"
+                            href="contact.html">contact us</a></il>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="container-first-part">
-            <div class="container-introduction">
-                <div class="left-line">
-                    <h2>Text Decoder</h2>
-                    <p>Simple text decoder made with HTML5 CSS3 and Javascript, modifies the content of the message you
+        <section class="principal_section_introduction">
+            <div class="container">
+                <div class="principal_section_introduction_left">
+                    <h2 class="principal_section_introduction_left_tittle">Text Decoder</h2>
+                    <p class="principal_section_introduction_left_paragraph">Simple text decoder made with HTML5 CSS3
+                        and Javascript, modifies the content of the message you
                         insert in the application, so that only the person receiving the message can understand what you
                         wanted to share.
                     </p>
                 </div>
-                <div class="right-line">
+                <div class="principal_section_introduction_right">
                     <p>Hello World,<br><span>programming in process.</span><br></p>
                 </div>
+                <img class="principal_section_introduction_img" src="/img/font-firts-part.jpg" alt="Fondo programacion">
             </div>
         </section>
-        <section class="container-second-part">
-            <div class="container-app">
-                <div class="container-switch">
+        <section class="principal_section_app">
+            <div class="container">
+                <div class="principal_section_app_switch">
                     <ul>
-                        <il class="encrip-desencrip"></il>
-                        <il class="encrip-desemcrip"></il>
+                        <il class="principal_section_app_switch_items">
+                            <a class="principal_section_app_switch_items_link" href="#">Coder</a>
+                        </il>
+                        <il class="principal_section_app_switch_items">
+                            <a class="principal_section_app_switch_items_link" href="#">Decoder</a>
+                        </il>
                     </ul>
                 </div>
-                <div class="container-show-information">
-                    <div class="container-int-information">
-                        <textarea name="write-information1" id="w-i1" cols="45" rows="22"
+                <div class="principal_section_app_show_information">
+                    <div class="principal_section_app_int_information">
+                        <textarea name="write-information1" id="w-i1"
+                            class="principal_section_app_int_information_textarea" cols="45" rows="22"
                             placeholder="Please insert a text"></textarea>
                     </div>
 
-                    <div class="container-copy">
-                        <textarea name="write-information2" id="w-i2" cols="45" rows="22"
+                    <div class="principal_section_app_out_information">
+                        <textarea name="write-information2" id="w-i2"
+                            class="principal_section_app_out_information_textarea" cols="45" rows="22"
                             placeholder="Please enter some text for encryption"></textarea>
-                        <button id="copyb"><span>copy</span></button>
                     </div>
 
                 </div>
-                <div class="container-bt">
-                    <button id="runb"><span>run</span></button>
-                    <button id="clearb"><span>clear</span></button>
+                <div class="principal_section_app_button">
+                    <button id="runb" class="principal_section_app_button_items"><span>run</span></button>
+                    <button id="clearb" class="principal_section_app_button_items"><span>clear</span></button>
+                    <button id="copyb" class="principal_section_app_button_items"><span>copy</span></button>
                 </div>
             </div>
 
         </section>
-        <section class="container-message">
-            <div class="container-contact-us">
-                <form>
+        <section class="principal_section_contactme">
+            <h2 class="principal_section_contactme_tittle">Contact me,<br><span>I'm waiting for you!</span><br></h2>
+            <div class="container">
+                <form class="principal_section_contactme_form">
                     <label for="contact-name">Name</label>
-                    <input type="text" id="contact-name">
+                    <input type="text" id="contact-name" class="principal_section_contactme_form_input">
 
                     <label for="contact-number">Cellphone
                         number</label>
-                    <input type="text" id="contact-number">
+                    <input type="text" id="contact-number" class="principal_section_contactme_form_input">
 
                     <label for="contact-subject">Subject</label>
-                    <input type="text" id="contact-subject">
+                    <input type="text" id="contact-subject" class="principal_section_contactme_form_input">
 
                     <label for="contact-menssage">Menssage</label>
-                    <textarea id="contact-menssage" cols="30" rows="10"></textarea>
-                    <div class="button-send">
-                        <input type="submit" id="contact-send" value="Send">
-                    </div>
+                    <textarea id="contact-menssage" class="principal_section_contactme_form_textearea" cols="30"
+                        rows="10"></textarea>
 
                 </form>
+                <input type="submit" id="contact-send" class="principal_section_contactme_buttonsend" value="Send">
             </div>
-
         </section>
     </main>
-    <footer>
-        <div class="container-footer">
-            <ul>
-                <il class="footer-information">information</il>
-                <il class="footer-information">social</il>
-                <il class="footer-information">frecuenly question</il>
-                <il class="footer-information">more</il>
+    <footer class="principal_footer">
+        <div class="container">
+            <ul class="principal_footer_list">
+                <il class="principal_footer_items"><a class="principal_footer_links" href="#">social</a><span
+                        class="principal_footer_span">|</span>
+                </il>
+                <il class="principal_footer_items"><a class="principal_footer_links" href="#">frecuenly
+                        question</a><span class="principal_footer_span">|</span></il>
+                <il class="principal_footer_items"><a class="principal_footer_links" href="#">more</a></il>
             </ul>
         </div>
 
