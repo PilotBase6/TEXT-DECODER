@@ -94,3 +94,14 @@
     }
     
 }
+
+@media screen and (max-width:336px) {
+    .principal_section_app_switch_list{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    .principal_section_app_switch_items{
+        margin-bottom: .2rem;
+    }
+}
