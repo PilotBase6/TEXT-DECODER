@@ -24,17 +24,17 @@
                     <img class="principal_header_link_logo" src="img/Logo.png" alt="Logo">
                 </a>
             </h1>
-            <nav class="principal_header_nav">
-                <ul class="principal_header_list">
+            <nav class="principal_header_nav" >
+                <ul class="principal_header_list" id="navbar">
                     <il class="principal_header_items"><a
                             class="principal_header_items_link principal_header_items_link-aboutaplication"
-                            href="index.html">about
+                            href="#introduction">about
                             aplication</a></il>
                     <il class="principal_header_items"><a
-                            class="principal_header_items_link principal_header_items_link-decoder" href="#">decoder</a>
+                            class="principal_header_items_link principal_header_items_link-decoder" href="#app">decoder</a>
                     </il>
                     <il class="principal_header_items"><a
-                            class="principal_header_items_link principal_header_items_link-contactus" href="#">contact
+                            class="principal_header_items_link principal_header_items_link-contactus" href="#contactme">contact
                             us</a>
                     </il>
                 </ul>
@@ -42,7 +42,7 @@
         </div>
     </header>
     <main>
-        <section class="principal_section_introduction">
+        <section class="principal_section_introduction" id="introduction">
             <div class="container">
                 <div class="principal_section_introduction_left">
                     <h2 class="principal_section_introduction_left_tittle">Text Decoder</h2>
@@ -60,7 +60,7 @@
 
             </div>
         </section>
-        <section class="principal_section_app">
+        <section class="principal_section_app" id="app">
             <div class="container">
                 <div class="principal_section_app_switch">
                     <ul class="principal_section_app_switch_list">
@@ -95,16 +95,15 @@
 
 
         </section>
-        <section class="principal_section_contactme">
+        <section class="principal_section_contactme" id="contactme">
             <h2 class="principal_section_contactme_tittle">Contact me,<br><span>I'm waiting for you!</span><br></h2>
             <div class="container">
                 <form class="principal_section_contactme_form">
                     <label for="contact-name">Name</label>
                     <input type="text" id="contact-name" class="principal_section_contactme_form_input">
 
-                    <label for="contact-number">Cellphone
-                        number</label>
-                    <input type="text" id="contact-number" class="principal_section_contactme_form_input">
+                    <label for="contact-number">Email</label>
+                    <input type="email" id="contact-email" class="principal_section_contactme_form_input">
 
                     <label for="contact-subject">Subject</label>
                     <input type="text" id="contact-subject" class="principal_section_contactme_form_input">
@@ -131,6 +130,7 @@
         </div>
 
     </footer>
+    <script src="/app.js"></script>
 </body>
 
 </html>
