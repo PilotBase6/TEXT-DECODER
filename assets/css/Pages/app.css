@@ -13,24 +13,11 @@
 
 .principal_section_app .container{
     display: flex;
-    margin-top: 3rem;
+    margin-top: 1rem;
     flex-direction: column;
 }
 
-.principal_section_app_switch{
-    margin-bottom: 2rem;
-    display: inline-block;
-    position: relative;
-}
 
-.principal_section_app_switch_items{
-    margin: 0 2rem;
-    border: 1px solid var(--font-color-blue); 
-    padding: .75rem;
-    border-radius: 1rem;
-
-    
-}
 
 .principal_section_app_switch_items_link{
     text-transform: uppercase;
@@ -42,7 +29,7 @@
 .principal_section_app_int_information_textarea{
     width: 90%;
     background-color: transparent;
-    background:  url(/img/Muñeco.png);
+    background:  url(/assets/img/Muñeco.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: .5rem;
@@ -56,7 +43,7 @@
 .principal_section_app_out_information_textarea{
     width: 90%;
     background-color: transparent;
-    background:  url(/img/Muñeco.png);
+    background:  url(/assets/img/Muñeco.png);
     background-repeat: no-repeat;
     background-size: cover;
     padding: .5rem;
@@ -68,6 +55,7 @@
     display: inline-block;
     margin-top: 2rem;
     margin-bottom: 4rem;
+    
 }
 
 .principal_section_app_button_items{
@@ -79,12 +67,13 @@
     border-radius: .5rem;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .principal_section_app .container{
-        margin-top: 10rem;
+        margin-top: 2rem;
         margin-bottom: 7rem;
     }
     .principal_section_app_show_information{
@@ -92,7 +81,18 @@
         margin-top: 3rem;
         margin-bottom: 3rem;
     }
-    
+ 
+}
+
+@media screen and (max-width:767px) {
+    .principal_section_app_int_information_textarea{
+        height: 15rem;
+        width: 15rem;
+    }
+    .principal_section_app_out_information_textarea{
+        height: 15rem;
+        width: 15rem;
+    }
 }
 
 @media screen and (max-width:336px) {

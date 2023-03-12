@@ -33,6 +33,10 @@
     
 }
 
+/* .principal_header_nav{
+    position: fixed;
+} */
+
 .principal_header_items{
     display: inline-block;
     margin: 0 0.1rem;

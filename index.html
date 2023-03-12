@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Decoder</title>
-    <link rel="stylesheet" href="css/block/reset.css">
-    <link rel="stylesheet" href="/css/block/base.css">
-    <link rel="stylesheet" href="/css/Pages/header.css">
-    <link rel="stylesheet" href="/css/Pages/introduction.css">
-    <link rel="stylesheet" href="/css/Pages/app.css">
-    <link rel="stylesheet" href="/css/Pages/contact.css">
-    <link rel="stylesheet" href="/css/Pages/footer.css">
+    <link rel="stylesheet" href="assets/css/block/reset.css">
+    <link rel="stylesheet" href="assets/css/block/base.css">
+    <link rel="stylesheet" href="assets/css/Pages/header.css">
+    <link rel="stylesheet" href="assets/css/Pages/introduction.css">
+    <link rel="stylesheet" href="assets/css/Pages/app.css">
+    <link rel="stylesheet" href="assets/css/Pages/contact.css">
+    <link rel="stylesheet" href="assets/css/Pages/footer.css">
+    <link rel="stylesheet" href="assets/css/Pages/app-select-mode.css">
+    <link rel="stylesheet" href="js/run-code-btn.js">
 
 </head>
 
@@ -21,7 +23,7 @@
         <div class="container">
             <h1 class="principal_header_tittle">Decoder
                 <a class="principal_header_link" href="index.html">
-                    <img class="principal_header_link_logo" src="img/Logo.png" alt="Logo">
+                    <img class="principal_header_link_logo" src="assets/img/Logo.png" alt="Logo">
                 </a>
             </h1>
             <nav class="principal_header_nav" >
@@ -54,7 +56,7 @@
                 </div>
                 <div class="principal_section_introduction_right">
                     <p>Hello World,<br><span>programming in process.</span><br></p>
-                    <img class="principal_section_introduction_img" src="/img/font-firts-part.jpg"
+                    <img class="principal_section_introduction_img" src="/assets/img/font-firts-part.jpg"
                         alt="Fondo programacion">
                 </div>
 
@@ -62,16 +64,6 @@
         </section>
         <section class="principal_section_app" id="app">
             <div class="container">
-                <div class="principal_section_app_switch">
-                    <ul class="principal_section_app_switch_list">
-                        <il class="principal_section_app_switch_items">
-                            <a class="principal_section_app_switch_items_link" href="#">Coder</a>
-                        </il>
-                        <il class="principal_section_app_switch_items">
-                            <a class="principal_section_app_switch_items_link" href="#">Decoder</a>
-                        </il>
-                    </ul>
-                </div>
                 <div class="principal_section_app_show_information">
                     <div class="principal_section_app_int_information">
                         <textarea name="write-information1" id="w-i1"
@@ -87,9 +79,9 @@
 
                 </div>
                 <div class="principal_section_app_button">
-                    <button id="runb" class="principal_section_app_button_items"><span>run</span></button>
-                    <button id="clearb" class="principal_section_app_button_items"><span>clear</span></button>
-                    <button id="copyb" class="principal_section_app_button_items"><span>copy</span></button>
+                    <button id="coderbtn" class="principal_section_app_button_items" onclick="runCoder()"><span>Coder</span></button>
+                    <button id="decoderbtn" class="principal_section_app_button_items" onclick="runDecoder()"><span>Decoder</span></button>
+                    <button id="copubtn" class="principal_section_app_button_items" onclick="copyBtn()"><span>copy</span></button>
                 </div>
             </div>
 
@@ -130,7 +122,7 @@
         </div>
 
     </footer>
-    <script src="/app.js"></script>
+    <script src="js/run-code-btn.js"></script>
 </body>
 
 </html>

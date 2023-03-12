@@ -48,7 +48,7 @@
     margin-top: 2rem;
 }
 
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 
     .principal_section_introduction{
         padding: 0;
@@ -56,12 +56,14 @@
     .principal_section_introduction .container{
         flex-direction: row;
         width: 100%;
-        background: url(/img/font-firts-part.jpg);
+        background: url(/assets/img/font-firts-part.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         padding: 0;
         align-items: center;
-        height: 80vh;
+        height: 90vh;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
 
     }
 
@@ -88,5 +90,14 @@
 
     .principal_section_introduction_img{
         display: none;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .principal_section_introduction .container {
+        padding:6rem 0 ;
+    }
+    .principal_section_introduction_left{
+        padding-bottom: 4rem;
     }
 }
