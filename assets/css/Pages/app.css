@@ -70,6 +70,12 @@
     cursor: pointer;
 }
 
+.principal_section_app_button_items:hover{
+    background: var(--background-color-blue);
+    color: #ccc5cc;
+    transition-duration: .5s;
+}
+
 @media screen and (min-width: 768px) {
 
     .principal_section_app .container{
@@ -103,5 +109,11 @@
     }
     .principal_section_app_switch_items{
         margin-bottom: .2rem;
+    }
+}
+
+@media screen and (max-width:310px) {
+    #copubtn{
+        margin-top: .5rem;
     }
 }

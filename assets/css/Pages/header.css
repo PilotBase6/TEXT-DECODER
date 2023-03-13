@@ -11,6 +11,12 @@
     
 }
 
+.principal_header .container {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+}
+
 
 .principal_header_tittle{
     align-items: center;
@@ -43,6 +49,13 @@
     border: 1px solid var(--background-color-blue);
     padding: .2rem;
     border-radius: 2rem;
+    transition-duration: .2s;
+}
+
+
+.principal_header_items:hover{
+    background: var(--background-color-blue);
+    transition-duration: .5s;
 }
 
 .principal_header_items_link{
@@ -51,6 +64,12 @@
     font-size: .9rem;
     color: var(--font-color-blue);
 }
+
+.principal_header_items_link:hover{
+    color: #ccc5cc;
+    transition-duration: .6s;
+}
+
 
 @media (min-width: 768px){
 

@@ -28,17 +28,17 @@
             </h1>
             <nav class="principal_header_nav" >
                 <ul class="principal_header_list" id="navbar">
-                    <il class="principal_header_items"><a
+                    <li class="principal_header_items"><a
                             class="principal_header_items_link principal_header_items_link-aboutaplication"
-                            href="#introduction">about
-                            aplication</a></il>
-                    <il class="principal_header_items"><a
+                            href="#">about
+                            aplication</a></li>
+                    <li class="principal_header_items"><a
                             class="principal_header_items_link principal_header_items_link-decoder" href="#app">decoder</a>
-                    </il>
-                    <il class="principal_header_items"><a
+                    </li>
+                    <li class="principal_header_items"><a
                             class="principal_header_items_link principal_header_items_link-contactus" href="#contactme">contact
                             us</a>
-                    </il>
+                    </li>
                 </ul>
             </nav>
         </div>
@@ -90,34 +90,34 @@
         <section class="principal_section_contactme" id="contactme">
             <h2 class="principal_section_contactme_tittle">Contact me,<br><span>I'm waiting for you!</span><br></h2>
             <div class="container">
-                <form class="principal_section_contactme_form">
+                <form action="https://formspree.io/f/mgebzlbz" method="POST" class="principal_section_contactme_form">
                     <label for="contact-name">Name</label>
-                    <input type="text" id="contact-name" class="principal_section_contactme_form_input">
+                    <input type="text" id="contact-name" class="principal_section_contactme_form_input" required>
 
-                    <label for="contact-number">Email</label>
-                    <input type="email" id="contact-email" class="principal_section_contactme_form_input">
+                    <label for="contact-email">Email</label>
+                    <input type="email" name="email" id="contact-email" class="principal_section_contactme_form_input" required>
 
                     <label for="contact-subject">Subject</label>
-                    <input type="text" id="contact-subject" class="principal_section_contactme_form_input">
+                    <input type="text" id="contact-subject" class="principal_section_contactme_form_input" required>
 
                     <label for="contact-menssage">Menssage</label>
-                    <textarea id="contact-menssage" class="principal_section_contactme_form_textearea" cols="30"
-                        rows="10"></textarea>
+                    <textarea id="contact-menssage" name="message" class="principal_section_contactme_form_textearea" cols="30"
+                        rows="10" required></textarea>
 
                 </form>
                 <input type="submit" id="contact-send" class="principal_section_contactme_buttonsend" value="Send">
+                <div class="principal_section_contactme_hide">The message was sent.</div>
             </div>
         </section>
     </main>
     <footer class="principal_footer">
         <div class="container">
             <ul class="principal_footer_list">
-                <il class="principal_footer_items"><a class="principal_footer_links" href="#">social</a><span
+                <li class="principal_footer_items"><a class="principal_footer_links" href="https://www.linkedin.com/in/andr%C3%A9s-mauricio-guevara-catal%C3%A1n-16a7a7239/">Linkedin</a><span
                         class="principal_footer_span">|</span>
-                </il>
-                <il class="principal_footer_items"><a class="principal_footer_links" href="#">frecuenly
-                        question</a><span class="principal_footer_span">|</span></il>
-                <il class="principal_footer_items"><a class="principal_footer_links" href="#">more</a></il>
+                </li>
+                <li class="principal_footer_items"><a class="principal_footer_links" href="https://github.com/PilotBase6">Github</a><span class="principal_footer_span">|</span></li>
+                <li class="principal_footer_items"><a class="principal_footer_links" href="https://instagram.com/andres_0610?igshid=ZDdkNTZiNTM=">Instagram</a></li>
             </ul>
         </div>
 
